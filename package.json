@@ -17,9 +17,9 @@
     "micromasks/"
   ],
   "scripts": {
-    "start": "webpack --progress --watch --config-name main --config webpack.config.js",
-    "jquery": "webpack --progress --watch --config-name jquery --config webpack.config.js",
-    "colormask": "webpack --progress --watch --config-name colormask --config webpack.config.js",
+    "start": "webpack --progress --config-name main --config webpack.config.js",
+    "jquery": "webpack --progress --config-name jquery --config webpack.config.js",
+    "colormask": "webpack --progress --config-name colormask --config webpack.config.js",
     "test": "grunt validate"
   },
   "repository": {
